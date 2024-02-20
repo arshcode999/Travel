@@ -1,0 +1,180 @@
+/*Home page starts here*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('images/paris-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	color: white;
+	text-align: center;
+}
+
+/* Navigation styling starts */
+
+/*Company brand info starts*/
+
+h2 {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+/*Company brand info ends*/
+
+#navbar {
+	display: flex;
+	/*border: 2px solid red;*/
+	position: sticky;
+	top: 0;
+	background-color: #00000017;
+}
+
+#ulnav {
+	/*border: 2px solid white;*/
+	display: flex;
+	align-content: center;
+	align-items: right;
+}
+
+.nav {
+	padding: 10px;
+	list-style: none;
+	margin: 10px;
+}
+
+
+
+.alink {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+	border: 2px solid white;
+	padding: 10px;
+	list-style: none;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.alink:hover {
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
+/* Navigatiobn styling ends here */
+
+/*Home page ends here*/
+
+/* Login page starts here */
+#logincontent {
+	/*border: 2px solid white;*/
+	height: 460px;
+	width: 90%;
+	margin: 40px;
+	padding: 10px;
+	position: absolute;
+	top: 100px;
+	text-align: centre;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cover {
+	border: 2px solid transparent;
+	width: 40%;
+	height: 400px;
+	background-image: url('images/login.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	opacity: 0.9;
+	z-index: -0.9;
+}
+
+#cform {
+	/*border: 2px solid red;*/
+	width: 40%;
+	height: 400px;
+}
+
+.lform {
+	font-size: 25px;
+	text-align: left;
+}
+
+.linform {
+	border: 2px solid #ffffff99;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 40px;
+	background-color: #ffffff99;
+	color: white;
+}
+.linform:focus {
+	border: none;
+	color: white;
+}
+.formatf {
+	padding: 20px;
+	margin: 40px;
+}
+
+legend {
+	text-align: left;
+	font-size: 20px;
+}
+fieldset {
+	border-radius: 20px;
+	height: auto;
+	padding: 10px;
+}
+
+#logins {
+	width: 60px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 10px;
+	height: 40px;
+	width: 200px;
+}
+
+#logins:hover {
+	background-color: #ffffff99;
+	color: black;
+}
+
+#aahelp {
+	/*border: 2px solid red;*/
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:20px;
+}
+.help {
+	text-decoration: none;
+	color: white;
+	width: 160px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	border: 2px solid white;
+}
+.help:hover{
+	background-color: white;
+	opacity: 0.9;
+	color: black;
+}
+h1 {
+	color: darkblue;
+	font-size: 100px;
+	padding: 20px;
+	margin: 20px;
+	text-align: left;
+}
+/* Login page ends here */

@@ -1,0 +1,129 @@
+/*Home page starts here*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('images/paris-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	color: white;
+	text-align: center;
+}
+
+/* Navigation styling starts */
+
+/*Company brand info starts*/
+
+h2 {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+/*Company brand info ends*/
+
+#navbar {
+	display: flex;
+	/*border: 2px solid red;*/
+	position: sticky;
+	top: 0;
+	background-color: #00000017;
+}
+
+#ulnav {
+	/*border: 2px solid white;*/
+	display: flex;
+	align-content: center;
+	align-items: right;
+}
+
+.nav {
+	padding: 10px;
+	list-style: none;
+	margin: 10px;
+}
+
+
+
+.alink {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+	border: 2px solid white;
+	padding: 10px;
+	list-style: none;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.alink:hover {
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
+/* Navigatiobn styling ends here */
+
+/*Home page ends here*/
+
+
+/* Explore styling starts here */
+#card {
+	border: 2px solid transparent;
+	height: 86vh;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	overflow: scroll;
+}
+
+.pcard {
+	height: 60%;
+	width: 20%;
+	border: 2px solid darkslateblue;
+	margin: 10px;
+	background-color: #221b49c7;
+	border-radius: 10px;
+}
+
+.bg {
+	height: 151px;
+    width: 241px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.details {
+	display: flex;
+	height: 20px;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.flag {
+	height: 20px;
+	width: 20px;
+	padding-right: 10px;
+}
+
+.booklink {
+	margin: 6px;
+    padding: 2px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.booklink:hover {
+	background-color: white;
+	color: black;
+}
+/* Explore styling ends here */

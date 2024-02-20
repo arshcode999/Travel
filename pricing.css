@@ -1,0 +1,138 @@
+/*Home page starts here*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('images/paris-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	color: white;
+	text-align: center;
+}
+
+/* Navigation styling starts */
+
+/*Company brand info starts*/
+
+h2 {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+}
+/*Company brand info ends*/
+
+#navbar {
+	display: flex;
+	/*border: 2px solid red;*/
+	position: sticky;
+	top: 0;
+	background-color: #00000017;
+}
+
+#ulnav {
+	/*border: 2px solid white;*/
+	display: flex;
+	align-content: center;
+	align-items: right;
+}
+
+.nav {
+	padding: 10px;
+	list-style: none;
+	margin: 10px;
+}
+
+
+
+.alink {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+	border: 2px solid white;
+	padding: 10px;
+	list-style: none;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.alink:hover {
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
+/* Navigatiobn styling ends here */
+
+/*Home page ends here*/
+
+
+/* Pricing styling starts here */
+#pricing {
+	border: 2px solid transparent;
+	height: 82vh;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#basic {
+	border: 2px solid transparent;
+	height: 99%;
+	width: 30%;
+	padding: 10px;
+}
+
+#standard {
+	border: 2px solid transparent;
+	height: 99%;
+	width: 30%;
+	padding: 10px;
+}
+
+#premium {
+	border: 2px solid transparent;
+	height: 99%;
+	width: 30%;
+	padding: 10px;
+}
+
+h1 {
+	color: white;
+}
+table {
+	text-align: center;
+	border: 2px solid white;
+	font-size: 18px;
+	background-color: #00000085;
+	border-radius: 10px;
+}
+th {
+	padding: 10px;
+	margin: 10px;
+}
+td {
+	padding: 4px;
+	margin: 2px;
+}
+.cart {
+	border: 2px solid white;
+	display: block;
+	margin: 10px;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 16px;
+}
+
+.cart:hover {
+	background-color: white;
+	color: black;
+}
+span {
+	color: red;
+}
+/* Pricing styling ends here */
